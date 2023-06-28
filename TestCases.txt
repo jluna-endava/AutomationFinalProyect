@@ -1,0 +1,13 @@
+UI:
+
+Given I open the Lambdatest playground homepage
+And I open the categories
+And I select Phones, Tablets & ipods
+When I click on the HTC Touch HD
+Then The page with the HTC Touch HD info should open up
+
+Given I open the Lambdatest playground homepage
+And I open the categories
+And I select Phones, Tablets & ipods
+WhenI add to cart the HTC Touch HD
+Then Item should be visible in the cart
