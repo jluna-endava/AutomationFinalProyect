@@ -12,6 +12,6 @@
     "cypress": "^12.16.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "cy:run": "cypress run"
   }
 }
